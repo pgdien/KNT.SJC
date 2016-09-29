@@ -1,0 +1,188 @@
+﻿
+@{
+    ViewBag.Title = "Service";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="service">
+    <!--Menu-->
+    <div class="menu col-md-12">
+        <p class="col-md-2 col-md-offset-1">Dịch vụ</p>
+        <ul class="col-md-8">
+            <li class="col-md-3">
+                <a href="@Url.Action("SvThietkewebsite","Home")">Thiết kế website</a>
+                <ul>
+                    <li><a href="@Url.Action("WsNhahang","Home")">Thiết kế website nhà hàng</a></li>
+                    <li><a href="@Url.Action("WsKhachsan","Home")">Thiết kế website khách sạn</a></li>
+                    <li><a href="@Url.Action("WsSpa","Home")">Thiết kế website Spa - Beauty</a></li>
+                    <li><a href="@Url.Action("WsBanhang","Home")">Thiết kế website bán hàng</a></li>
+                    <li><a href="@Url.Action("WsTintuc","Home")">Thiết kế website tin tức</a></li>
+                    <li><a href="@Url.Action("WsCongty","Home")">Thiết kế website công ty</a></li>
+                    <li><a href="@Url.Action("WsDichvu","Home")">Thiết kế website dịch vụ</a></li>
+                </ul>
+            </li>
+            <li class="col-md-3">
+                <a href="@Url.Action("SvThietkephanmem","Home")">Thiết kế phần mềm</a>
+                <ul>
+                    <li><a href="@Url.Action("DsNhahang","Home")">Phần mềm quản lý nhà hàng</a></li>
+                    <li><a href="@Url.Action("DsKaraoke","Home")">Phần mềm quản lý Karaoke</a></li>
+                    <li><a href="@Url.Action("DsBanhang","Home")">Phần mềm quản lý bán hàng</a></li>
+                    <li><a href="@Url.Action("DsNhansu","Home")">Phần mềm quản lý nhân sự</a></li>
+                    <li><a href="@Url.Action("DsDoanvien","Home")">Phần mềm quản lý Đoàn viên</a></li>
+                    <li><a href="@Url.Action("DsInan","Home")">Phần mềm hỗ trợ in ấn</a></li>
+                </ul>
+            </li>
+            <li class="col-md-3">
+                <a href="@Url.Action("SvMarketingonline","Home")">Marketing Online</a>
+                <ul>
+                    <li><a href="#">Quản trị website</a></li>
+                    <li><a href="#">Quản trị fanpage facebook</a></li>
+                    <li><a href="#">Google Adwords</a></li>
+                    <li><a href="#">Facebook Adword</a></li>
+                    <li><a href="#">SEO website</a></li>
+                    <li><a href="#">SEO fanpage</a></li>
+                </ul>
+            </li>
+            <li class="col-md-3">
+                <a href="@Url.Action("SvDichvukhac","Home")">Dịch vụ khác</a>
+                <ul>
+                    <li><a href="#">Thiết kế poster, banner, ảnh</a></li>
+                    <li><a href="#">Thiết kế card visit, biển hiệu</a></li>
+                    <li><a href="#">Thiết kế băng rôn, khẩu ngữ</a></li>
+                    <li><a href="#">Đào tạo lập trình</a></li>
+                    <li><a href="#">Cung cấp thiết bị bán hàng</a></li>
+                    <li><a href="#">Tổ chức sự kiện</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!--Banner-->
+    <div class="banner col-md-12">
+        <div class="title col-md-11 col-md-offset-1">
+            <p class="line-1">Giải pháp tối ưu toàn diện</p>
+            <p class="line-2">Chúng tôi cung cấp những giải pháp tối ưu nhất để <span>xây dựng thương hiệu</span> của bạn một cách hoàn hảo.</p>
+        </div>
+    </div>
+
+    <!--Nội dung trang-->
+    <div class="content col-md-12">
+        <div class="button-next-part">
+            <a class="background" id="next-to-noidungchiase" style="cursor: pointer">
+                <img src="~/images/Homepage/share-arrow-another.png" />
+            </a>
+        </div>
+        <div class="detail col-md-11 col-md-offset-1">
+            <a class="col-md-3" href="@Url.Action("SVThietkewebsite","Home")">
+                <img src="~/images/Services/my-service-icon-1.png" />
+            </a>
+            <div class="col-md-5">
+                <div>
+                    <a class="l1" href="@Url.Action("SVThietkewebsite","Home")">Thiết kế website</a>
+                    <p>Chúng tôi cung cấp dịch vụ thiết kế website dựa trên ý tưởng của cả 2 bên cùng hợp tác.</p>
+                </div>
+                <a class="m1" href="@Url.Action("SVThietkewebsite","Home")">Xem thêm</a>
+            </div>
+            <ul class="u1 col-md-4">
+                <li><a href="@Url.Action("WsNhahang","Home")">Thiết >Thiết kế website nhà hàng</a></li>
+                <li><a href="#">Thiết kế website khách sạn</a></li>
+                <li><a href="#">Thiết kế website Spa - Beauty</a></li>
+                <li><a href="#">Thiết kế website bán hàng</a></li>
+                <li><a href="#">Thiết kế website tin tức</a></li>
+                <li><a href="#">Thiết kế website công ty</a></li>
+            </ul>
+        </div>
+        <div class="detail col-md-11 col-md-offset-1">
+            <a class="col-md-3" href="@Url.Action("SVThietkephanmem","Home")">
+                <img src="~/images/Services/my-service-icon-2.png" />
+            </a>
+            <div class="col-md-5">
+                <div>
+                    <a class="l2" href="@Url.Action("SVThietkephanmem","Home")">Thiết kế phần mềm</a>
+                    <p>Phần mềm của chúng tôi luôn đảm bảo tiêu chí hiệu quả, tiện lợi và nhanh chóng.</p>
+                </div>
+                <a class="m2" href="@Url.Action("SVThietkephanmem","Home")">Xem thêm</a>
+            </div>
+            <ul class="u2 col-md-4">
+                <li><a href="#">Phần mềm quản lý nhà hàng</a></li>
+                <li><a href="#">Phần mềm quản lý karaoke</a></li>
+                <li><a href="#">Phần mềm quản lý bán hàng</a></li>
+                <li><a href="#">Phần mềm quản lý nhân sự</a></li>
+                <li><a href="#">Phần mềm quản lý Đoàn viên</a></li>
+                <li><a href="#">Phần mềm hỗ trợ in ấn</a></li>
+            </ul>
+        </div>
+        <div class="detail col-md-11 col-md-offset-1">
+            <a class="col-md-3" href="@Url.Action("SVMarketingonline","Home")">
+                <img src="~/images/Services/my-service-icon-3.png" />
+            </a>
+            <div class="col-md-5">
+                <div>
+                    <a class="l3" href="@Url.Action("SVMarketingonline","Home")">Marketing Online</a>
+                    <p>Chúng tôi đẩy mạnh việc quảng bá thương hiệu của bạn trên nhiều kênh tiếp cận khác hàng tiềm năng.</p>
+                </div>
+                <a class="m3" href="@Url.Action("SVMarketingonline","Home")">Xem thêm</a>
+            </div>
+            <ul class="u3 col-md-4">
+                <li><a href="#">Quản trị website</a></li>
+                <li><a href="#">Quản trị fanpage facebook</a></li>
+                <li><a href="#">Google Adwords</a></li>
+                <li><a href="#">Facebook Adword</a></li>
+                <li><a href="#">SEO website</a></li>
+                <li><a href="#">SEO fanpage</a></li>
+            </ul>
+        </div>
+        <div class="detail col-md-11 col-md-offset-1">
+            <a class="col-md-3" href="@Url.Action("SVDichvukhac","Home")">
+                <img src="~/images/Services/my-service-icon-4.png" />
+            </a>
+            <div class="col-md-5">
+                <div>
+                    <a class="l4" href="@Url.Action("SVDichvukhac","Home")">Dịch vụ khác</a>
+                    <p>Bên cạnh các dịch vụ chính, chúng tôi còn hỗ trợ quý khác một số dịch vụ cần thiết khác.</p>
+                </div>
+                <a class="m4" href="@Url.Action("SVDichvukhac","Home")">Xem thêm</a>
+            </div>
+            <ul class="u4 col-md-4">
+                <li><a href="#">Thiết kế poster, banner, ảnh</a></li>
+                <li><a href="#">Thiết kế card visit, biển hiệu</a></li>
+                <li><a href="#">Thiết kế băng rôn, khẩu ngữ</a></li>
+                <li><a href="#">Đào tạo lập trình</a></li>
+                <li><a href="#">Cung cấp thiết bị bán hàng</a></li>
+                <li><a href="#">Tổ chức sự kiện</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Nhận tin mới nhất từ chúng tôi-->
+    <div class="subscribe col-md-12">
+        <div class="content col-md-9 col-md-offset-2">
+            <div class="text col-md-6">
+                <p class="title">Nhận tin mới nhất từ chúng tôi</p>
+                <p class="detail">và nhận những hướng dẫn , chia sẻ kinh nghiệm để phát triển công việc của bạn một cách tốt hơn</p>
+            </div>
+            <div class="form col-md-6">
+                <form>
+                    <input type="text" name="Email" value placeholder="Nhập email của bạn" />
+                </form>
+                <a href="#" class="sign-up-btn">Đăng ký</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Bản đồ và địa chỉ-->
+    <div class="map-address col-md-12">
+        <div class="content col-md-9 col-md-offset-2">
+            <div class="address-info">
+                <p class="company-name">Kết nối trẻ JSC</p>
+                <p class="address">
+                    Add: 75 Lâm Tường, Hồ Nam, Lê Chân, Hải Phòng<br />
+                    Email: ketnoitre.jsc@gmail.com
+                </p>
+                <p class="phone">09.1415.6668 - 0888.04.6966</p>
+            </div>
+            <img src="~/images/Homepage/address-map.png" />
+        </div>
+    </div>
+</div>
+

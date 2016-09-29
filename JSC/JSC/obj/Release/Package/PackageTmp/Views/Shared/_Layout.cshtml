@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Kết nối trẻ</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/md-about-us.css" rel="stylesheet" />
+    <link href="~/Content/md-design-software.css" rel="stylesheet" />
+    <link href="~/Content/md-header-footer.css" rel="stylesheet" />
+    <link href="~/Content/md-index.css" rel="stylesheet" />
+    <link href="~/Content/md-marketing-online.css" rel="stylesheet" />
+    <link href="~/Content/md-other-services.css" rel="stylesheet" />
+    <link href="~/Content/md-service.css" rel="stylesheet" />
+    <link href="~/Content/md-Services-Dichvukhac.css" rel="stylesheet" />
+    <link href="~/Content/md-Services-Marketingonine.css" rel="stylesheet" />
+    <link href="~/Content/md-Services-Thietkephanmem.css" rel="stylesheet" />
+    <link href="~/Content/md-Services-Thietkewebsite.css" rel="stylesheet" />
+    <link href="~/Content/md-Website-Design-CSS.css" rel="stylesheet" />
+    <link href="~/Content/xs-header-footer.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="header-logo">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1">
+                <a href="@Url.Action("Index","Home")">
+                    <img src="~/images/logo-jsc.png" class="col-xs-3 col-sm-3 col-md-3" />
+                    <p class="header-logo-text-line-1">Kết nối trẻ JSC</p>
+                    <p class="header-logo-text-line-2">Cùng hợp tác - Cùng thành công</p>
+                </a>
+            </div>
+        </div>
+        <div class="header-menu col-md-7">
+            <div class="header-menu-1 hidden-xs hidden-sm col-md-12">
+                <ul class="col-md-5">
+                    <li class="col-md-4 col-md-offset-1"><a href="#">Tuyển dụng</a></li>
+                    <li class="col-md-4"><a href="#">Kho giao diện</a></li>
+                    <li class="col-md-3"><a href="#">Bảng giá</a></li>
+                </ul>
+                <form class="header-search col-md-3">
+                    <input type="text" name="" placeholder="Search" class="header-txt-search col-md-8" />
+                    <a href="#" class="header-btn-search col-md-2"><img src="~/images/header-search-icon.png" /></a>
+                </form>
+                <a href="tel:01642166367" class="header-phone col-md-3"><img src="~/images/header-phone-icon.png" />0164.216.6367</a>
+            </div>
+            <div class="header-menu-2 col-md-12">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header hidden-md hidden-lg">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="@Url.Action("Index","Home")">Kết nối trẻ</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="menu-1 nav navbar-nav">
+                                <li class="active"><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="@Url.Action("SvThietkewebsite","Home")">Dịch vụ</a>
+                                    <ul class="menu-2 dropdown-menu">
+                                        <li>
+                                            <a href="@Url.Action("SvThietkewebsite","Home")">Thiết kế website</a>
+                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                                <li><a href="@Url.Action("WsNhahang","Home")">Thiết kế website nhà hàng</a></li>
+                                                <li><a href="@Url.Action("WsKhachsan","Home")">Thiết kế website khách sạn</a></li>
+                                                <li><a href="@Url.Action("WsSpa","Home")">Thiết kế website Spa - Beauty</a></li>
+                                                <li><a href="@Url.Action("WsBanhang","Home")">Thiết kế website bán hàng</a></li>
+                                                <li><a href="@Url.Action("WsTintuc","Home")">Thiết kế website tin tức</a></li>
+                                                <li><a href="@Url.Action("WsCongty","Home")">Thiết kế website công ty</a></li>
+                                                <li><a href="@Url.Action("WsDichvu","Home")">Thiết kế website dịch vụ</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("SvThietkephanmem","Home")">Thiết kế phần mềm</a>
+                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                                <li><a href="@Url.Action("DsNhahang","Home")">Phần mềm quản lý nhà hàng</a></li>
+                                                <li><a href="@Url.Action("DsKaraoke","Home")">Phần mềm quản lý Karaoke</a></li>
+                                                <li><a href="@Url.Action("DsBanhang","Home")">Phần mềm quản lý bán hàng</a></li>
+                                                <li><a href="@Url.Action("DsNhansu","Home")">Phần mềm quản lý nhân sự</a></li>
+                                                <li><a href="@Url.Action("DsDoanvien","Home")">Phần mềm quản lý Đoàn viên</a></li>
+                                                <li><a href="@Url.Action("DsInan","Home")">Phần mềm hỗ trợ in ấn</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("SvMarketingonline","Home")">Marketing Online</a>
+                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                                <li><a href="@Url.Action("MoQuantriweb","Home")">Quản trị website</a></li>
+                                                <li><a href="@Url.Action("MoQuantrifanpage","Home")">Quản trị fanpage facebook</a></li>
+                                                <li><a href="@Url.Action("MoGoogleadwords","Home")">Google Adwords</a></li>
+                                                <li><a href="@Url.Action("MoFacebookadwords","Home")">Facebook Adwords</a></li>
+                                                <li><a href="@Url.Action("MoSEOweb","Home")">SEO website</a></li>
+                                                <li><a href="@Url.Action("MoSEOfanpage","Home")">SEO fanpage</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("SvDichvukhac","Home")">Dịch vụ khác</a>
+                                            <ul class="menu-3 hidden-xs hidden-sm">
+                                                <li><a href="@Url.Action("OsPoster","Home")">Thiết kế poster, banner, ảnh</a></li>
+                                                <li><a href="@Url.Action("OsCard","Home")">Thiết kế card visit, biển hiệu</a></li>
+                                                <li><a href="@Url.Action("OsBangron","Home")">Thiết kế băng rôn, khẩu ngữ</a></li>
+                                                <li><a href="@Url.Action("OsDaotao","Home")">Đào tạo lập trình</a></li>
+                                                <li><a href="@Url.Action("OsCungcap","Home")">Cung cấp thiết bị bán hàng</a></li>
+                                                <li><a href="@Url.Action("OsTochuc","Home")">Tổ chức sự kiện</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="@Url.Action("About","Home")">Giới thiệu</a></li>
+                                <li><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="suicide hidden-xs hidden-sm col-md-3">
+                    <a href="#">Đăng kí tư vấn</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer class="col-md-12">
+        <div class="col-md-4 col-md-offset-1">
+            <a class="col-md-12">
+                <span class="fb-icon col-md-3"></span>
+                <div class="col-md-9">
+                    <p class="title">Bấm Like</p>
+                    <p class="detail">Để theo dõi tin mới nhất từ chúng tôi</p>
+                </div>
+            </a>
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKetnoitreJsc%2F%3Ffref%3Dts&width=80&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId" width="80" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+        <ul class="col-md-7">
+            <li><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
+            <li><a href="@Url.Action("Service","Home")">Dịch vụ</a></li>
+            <li><a href="@Url.Action("About","Home")">Giới thiệu</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/Front/home.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

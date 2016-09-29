@@ -1,0 +1,168 @@
+﻿
+@{
+    ViewBag.Title = "DsNhansu";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="design-software">
+    <!--Menu Dịch vụ-->
+    <div class="menu hidden-xs hidden-sm col-md-12 col-lg-12">
+        <p class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">Dịch vụ</p>
+        <ul class="col-md-8 col-lg-8">
+            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVThietkewebsite","Home")">Thiết kế website</a></li>
+            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVThietkephanmem","Home")">Thiết kế phần mềm</a></li>
+            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVMarketingonline","Home")">Marketing Online</a></li>
+            <li class="col-md-3 col-lg-3"><a href="@Url.Action("SVDichvukhac","Home")">Dịch vụ khác</a></li>
+        </ul>
+    </div>
+
+    <!--Menu chi tiết-->
+    <div class="menu-2 hidden-xs hidden-sm col-md-12 col-lg-12">
+        <ul class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+            <li><a href="@Url.Action("WsNhahang","Home")">Website<br />nhà hàng</a></li>
+            <li><a href="@Url.Action("WsKhachsan","Home")">Website<br />khách sạn</a></li>
+            <li><a href="@Url.Action("WsSpa","Home")">Website<br />Spa - Beauty</a></li>
+            <li><a href="@Url.Action("WsBanhang","Home")">Website<br />bán hàng</a></li>
+            <li><a href="@Url.Action("WsTintuc","Home")">Website<br />tin tức</a></li>
+            <li><a href="@Url.Action("WsCongty","Home")">Website<br />công ty</a></li>
+            <li><a href="@Url.Action("WsDichvu","Home")">Website<br />dịch vụ</a></li>
+        </ul>
+    </div>
+
+    <!--Banner-->
+    <div class="banner col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-xs-12 col-sm-6 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+            <p class="title">Thiết kế website nhà hàng</p>
+            <p class="line">Những website thuộc lĩnh vực nhà hàng của chúng tôi đều đảm bảo những chức năng như :</p>
+            <ul>
+                <li>Giao diện bắt mắt, hấp dẫn.</li>
+                <li>Trưng bày món ăn logic,thu hút khách hàng.</li>
+                <li>Có chức năng đặt bàn trực tuyến.</li>
+            </ul>
+            <a href="#">Khởi tạo ngay</a>
+        </div>
+    </div>
+
+    <!--Nội dung chính-->
+    <div class="content col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <!--Nút chuyển phần-->
+        <div class="button-next-part hidden-xs hidden-sm col-md-12 col-lg-12">
+            <a class="background" id="next-to-noidungchiase">
+                <img src="~/images/Homepage/share-arrow-another.png" />
+            </a>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+
+            <!--Từ row1 -> row4: Các đoạn nội dung-->
+            <div class="row-title">
+                <p class="title">Website Nhà Hàng - Dễ hay khó trong vấn đề khởi tạo đối với doanh nghiệp ?</p>
+                <p class="detail">
+                    Thiết kế website nhà hàng cũng như thiết kế website ẩm thực không chỉ đơn giản là việc bạn có một website cho cửa hàng mình và trình bày các món ăn,
+                    các dịch vụ mà bạn có nên đó, mà điều quan trọng hơn cả là nó phải thể hiện được những đặc trưng riêng mà chỉ nhà hàng bạn mới có,
+                    thể hiện được sự sang trọng và hấp dẫn đối với khách hàng dù họ chưa từng đến nhà hàng bạn lần nào.
+                </p>
+            </div>
+            <div class="row-box sdl col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="~/images/Services/Thietkewebsite/WsNhahang/content-img-1.png" class="hidden-xs hidden-sm col-md-2 col-lg-2" />
+                <div class="text col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                    <p class="title">Nghiên Cứu Kỹ Lưỡng Chủ Đề Món Ăn Của Nhà Hàng</p>
+                    <div class="detail">
+                        <p>
+                            Nghiên cứu kỹ lưỡng chủ đề món ăn là một điều vô cùng cần thiết đối với các nhà hàng.
+                            Để có thể thu hút thực khách thì những món ăn chủ đạo đưa lên website phải đúng với ý đồ của nhà hàng.
+                        </p>
+                        <p>
+                            Không thể nào mà nhà hàng Nhật lại đưa hình ảnh đồ ăn Việt hay Pháp lên đó được, vì thế công đoạn chọn lựa hình ảnh vô cùng cẩn thận và khắt khe.
+                            Chỉ những hình ảnh đủ tiêu chuẩn mới có thể được đăng tải lên trên website.
+                        </p>
+                        <p>
+                            Trong quá trình chọn lựa thì phải chỉnh sửa hình ảnh đúng tiêu chuẩn, kích cỡ sao cho không mờ không nhạt và phải thật lung linh, hấp dẫn.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-box sdr col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="text col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                    <p class="title">Chọn Tông Màu Chủ Đạo Cho Website</p>
+                    <div class="detail">
+                        <p>
+                            Việc lựa chọn tông màu chủ đạo cho website cũng rất quan trọng.
+                            Ngoài lý do thẩm mỹ thì nó còn liên quan đến phong thủy, tuổi của chủ cửa hàng và sự phát đạt trong làm ăn.
+                        </p>
+                        <p>
+                            Thông thường với những nhà hàng mang tính truyền thống hoặc sang trọng thì màu chủ đạo là màu đen, vàng kim.
+                            Trong khi đó tùy theo tuổi, mà màu sắc có thể thay đổi luân phiên.
+                            Hơn nữa khi lựa chọn màu sắc một cách chuẩn mực thì cũng rất dễ thu hút khách hàng truy cập website.
+                        </p>
+                    </div>
+                </div>
+                <img src="~/images/Services/Thietkewebsite/WsNhahang/content-img-2.png" class="hidden-xs hidden-sm col-md-2 col-lg-2" />
+            </div>
+            <div class="row-box sdl col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img src="~/images/Services/Thietkewebsite/WsNhahang/content-img-3.png" class="hidden-xs hidden-sm col-md-2 col-lg-2" />
+                <div class="text col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                    <p class="title">Đa Dạng Món Ăn, Đa Dạng Sản Phẩm, Đa Dạng bài Viết</p>
+                    <div class="detail">
+                        <p>
+                            Một Website có nhiều lượng truy cập thì nội dung của nó phải thật hay.
+                            Để nội dung hay thì chúng ta cần chú trọng vào hình ảnh bắt mắt và những thông tin trong bài viết phải ngắn gọn và chính xác.
+                        </p>
+                        <p>
+                            Sản phẩm và bài viết phải cập nhật liên tục, có như vậy website mới có thể hoạt động hiệu quả và thu hút khách hàng truy cập nhiều hơn.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Tham khảo giao diện ws-->
+            <div class="consult col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p>Tham khảo giao diện về website nhà hàng tại đây</p>
+                <a href="#">Truy cập</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Nhận tin tức từ chúng tôi-->
+    <div class="news col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="box col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+            <p class="col-xs-12 col-sm-12 col-md-9 col-lg-9">Nhận <span>tin tức</span> mới nhất từ chúng tôi</p>
+            <a href="#" class="col-xs-12 col-sm-12 col-md-3 col-lg-12">Đăng ký</a>
+        </div>
+    </div>
+
+    <!--Thông tin công ty-->
+    <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+            <div class="address col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img src="~/images/Services/Thietkewebsite/info-map.png" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <span>Kết Nối Trẻ JSC</span><br />
+                    75 Lâm Tường, Hồ Nam, Lê Chân, Hải Phòng <br />
+                    TEL: 0914 15 6668
+                </p>
+                <a href="https://goo.gl/maps/iiGdBNhajD82">Chỉ đường</a>
+            </div>
+            <div class="advice col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <p>
+                    <span>Nhận lời khuyên từ phía chuyên gia</span><br />
+                    Làm thế nào để phát triển được thương hiệu trực tuyến của bạn thành công
+                </p>
+                <form>
+                    <input type="text" placeholder="Nhập email của bạn" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <a href="#" class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">Đăng ký</a>
+                </form>
+            </div>
+            <div class="train col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img src="~/images/Services/Thietkewebsite/info-youtube-icon.png" />
+                <p>
+                    Bạn có muốn tham gia ngay vào khóa đào tạo trực tuyến của chúng tôi ngay hôm nay. Vui lòng truy cập vào chanel của chúng tôi tại địa chỉ:<br />
+                    https://goo.gl/uklNOu
+                </p>
+                <a href="#">Tham gia ngay</a>
+            </div>
+        </div>
+    </div>
+</div>

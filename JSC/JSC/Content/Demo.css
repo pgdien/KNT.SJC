@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../font/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../font/Roboto-Light.ttf') format('truetype'), url('../font/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../font/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    text-align: center;
+}
+
+p {
+    font-family: Roboto-Bold;
+    font-size: 3em;
+    color: rgb(0,120,174);
+    text-transform: uppercase;
+}
+
+div {
+}
+
+    div > a {
+         background: linear-gradient(to bottom,rgb(162, 217, 12) 0,rgb(137, 187, 0) 100%) 0 0/100% 100%;
+        width: 10em;
+    }
+
+    div > .html4 {
+    }
+
+    div > .html5 {
+    }

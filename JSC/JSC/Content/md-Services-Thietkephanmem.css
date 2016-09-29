@@ -1,0 +1,545 @@
+body {
+}
+
+.software-design {
+    padding: 0;
+}
+
+    /* menu 1 */
+    .software-design > .menu {
+        background: url(../images/Services/menu-3.png);
+        padding: 0;
+    }
+
+        .software-design > .menu > p {
+            font-family: Roboto-Medium;
+            font-size: 3.5em;
+            color: white;
+            padding: 0;
+            margin-top: 0.55em;
+        }
+
+        .software-design > .menu > ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 3em;
+            margin-bottom: 0.5em;
+        }
+
+            .software-design > .menu > ul > li {
+                width: 14.5em;
+                padding: 0;
+                margin-right: 1em;
+            }
+
+                .software-design > .menu > ul > li > a {
+                    font-family: Roboto-Bold;
+                    font-size: 1.2em;
+                    color: white;
+                    text-transform: uppercase;
+                    display: block;
+                    background: linear-gradient(to right,rgba(0,135,189,1) 0,rgba(0,135,189,1) 50%,rgba(0,170,238,1) 50%,rgba(0,170,238,1) 100%) 0 0/200% 100%;
+                    text-shadow: 0 -1px 0 rgb(0, 76, 110);
+                    border: 1px solid #00618a;
+                    border-color: rgb(0, 91, 129) rgb(0, 111, 156) rgb(0, 97, 138) rgb(0, 100, 141);
+                    box-shadow: 1px 1px 0 0 #008fcd;
+                    padding: 12px 19px 11px;
+                    position: relative;
+                    overflow: hidden;
+                    transition: all .3s linear;
+                }
+
+                    .software-design > .menu > ul > li > a:hover {
+                        text-decoration: none;
+                        color: white;
+                        background-position: -100% 0;
+                    }
+
+                    .software-design > .menu > ul > li > a:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 5px;
+                        height: 100%;
+                        background: #0ae;
+                        content: "";
+                        transition: all .2s linear;
+                    }
+
+    /* menu 2 */
+
+    .software-design > .menu-2 {
+        box-shadow: 0 3px 3px rgba(132,136,138,.3);
+        padding: 0;
+    }
+
+        .software-design > .menu-2 > ul {
+            list-style: none;
+            display: inline-flex;
+            padding: 0;
+        }
+
+            .software-design > .menu-2 > ul > li {
+                text-align: center;
+                padding-top: 1em;
+                padding-right: 1.8em;
+            }
+
+                .software-design > .menu-2 > ul > li > a {
+                    font-family: Roboto-Regular;
+                    font-size: 1.2em;
+                    color: rgb(0,120,174);
+                    text-transform: uppercase;
+                    line-height: 0;
+                    text-decoration: none;
+                    transition: color .3s;
+                }
+
+                    .software-design > .menu-2 > ul > li > a:hover {
+                        color: rgb(152, 200, 22);
+                    }
+
+    /* Banner */
+    .software-design > .banner {
+        padding: 0;
+        padding-top: 4em;
+        padding-bottom: 3em;
+    }
+
+
+        .software-design > .banner > div {
+            padding: 0;
+            padding-top: 1em;
+        }
+
+            .software-design > .banner > div > .line-1 {
+                font-family: Roboto-Black;
+                font-size: 4em;
+                color: rgb(0, 120, 174);
+                text-transform: uppercase;
+            }
+
+            .software-design > .banner > div > .line-2 {
+                font-family: Roboto-Light;
+                font-size: 2em;
+                color: rgb(135, 138, 140);
+            }
+
+            .software-design > .banner > div > a {
+                font-family: Roboto-Black;
+                font-size: 1.2em;
+                color: white;
+                text-align: center;
+                display: block;
+                width: 10em;
+                padding: 0.3em 2em;
+                text-shadow: 0 -1px 0 rgb(68, 117, 35);
+                border-radius: 1em;
+                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
+                text-decoration: none;
+                transition: all .4s linear;
+                margin-top: 2em;
+            }
+
+                .software-design > .banner > div > a:hover {
+                    color: rgb(255, 255, 255);
+                    background-position: 0 -200%;
+                    background-size: 100% 200%;
+                }
+
+    /* Nội dung trang */
+    .software-design > .content {
+        background: url(../images/Services/Thietkewebsite/content-bg.png);
+        padding: 5em 0em 5em 8em;
+        box-shadow: 0 3px 3px rgba(132,136,138,.3);
+    }
+
+        .software-design > .content > .detail {
+            padding: 0em 5em 4em 0em;
+        }
+
+            .software-design > .content > .detail > .icon {
+                padding: 0;
+            }
+
+                .software-design > .content > .detail > .icon > img {
+                    width: 10em;
+                    height: 10em;
+                }
+
+
+            .software-design > .content > .detail > div {
+                padding-left: 2.4em;
+                text-align: justify;
+            }
+
+                .software-design > .content > .detail > div > a {
+                    font-family: Roboto-Bold;
+                    font-size: 1.5em;
+                    color: rgb(0, 120, 174);
+                    text-decoration: none;
+                    transition: color .4s ease;
+                }
+
+                    .software-design > .content > .detail > div > a:hover {
+                        color: rgb(0, 51, 102);
+                    }
+
+                .software-design > .content > .detail > div > p {
+                    font-family:;
+                    font-size:;
+                    color: rgb(90, 96, 99);
+                    line-height: 1.5;
+                }
+
+            .software-design > .content > .detail > .more {
+                font-family: Roboto-Bold;
+                font-size: 1.2em;
+                color: rgb(0, 157, 220);
+                text-decoration: none;
+                transition: color .3s ease-out,background-color .3s ease-out;
+                margin-left: 10.2em;
+                width: 6em;
+                padding: 0;
+                display: inline;
+            }
+
+                .software-design > .content > .detail > .more:after {
+                    display: inline-block;
+                    vertical-align: top;
+                    content: "»";
+                    font-size: 25px;
+                    line-height: 22px;
+                    position: relative;
+                    left: 0.2em;
+                }
+
+                .software-design > .content > .detail > .more:hover {
+                    color: rgb(0, 51, 102);
+                }
+
+    /* Liên hệ với chúng tôi */
+    .software-design > .call-us {
+        z-index: 10;
+        margin-top: -3.5em;
+    }
+
+        .software-design > .call-us > .box {
+            background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
+            text-align: center;
+            border-radius: 3px;
+            padding-top: 2em;
+            padding-bottom: 1.5em;
+        }
+
+            .software-design > .call-us > .box > p {
+                font-family: Roboto-Light;
+                font-size: 2.3em;
+                color: rgb(255, 255, 255);
+            }
+
+            .software-design > .call-us > .box > a {
+                font-family: Roboto-Black;
+                font-size: 1.2em;
+                color: rgb(255, 255, 255);
+                padding: 5px 40px;
+                text-shadow: 0 -1px 0 #447523;
+                border-radius: 18px;
+                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
+                transition: all .4s linear;
+                width: 9em;
+                text-decoration: none;
+                margin-top: 0.4em;
+            }
+
+                .software-design > .call-us > .box > a:hover {
+                    color: rgb(255, 255, 255);
+                    background-position: 0 -200%;
+                    background-size: 100% 200%;
+                }
+
+    /* Trả lời câu hỏi */
+    .software-design > .quest {
+        font-family: Roboto-Regular;
+        text-align: justify;
+        margin-top: 5em;
+    }
+
+        .software-design > .quest > .title {
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 1em;
+        }
+
+            .software-design > .quest > .title > .line-1 {
+                font-family: Roboto-Light;
+                font-size: 2.5em;
+                color: rgb(0, 120, 174);
+                padding: 0;
+                margin: 0;
+            }
+
+            .software-design > .quest > .title > .line-2 {
+                font-family: Roboto-Bold;
+                font-size: 3em;
+                color: rgb(0, 120, 174);
+                padding: 0;
+            }
+
+        /* Cột 1 */
+        .software-design > .quest > .colum-1 {
+            padding: 0;
+            padding-right: 2em;
+        }
+
+            .software-design > .quest > .colum-1 > p {
+                margin-bottom: 2.5em;
+            }
+
+                .software-design > .quest > .colum-1 > p > span {
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    color: rgb(0, 120, 174);
+                }
+
+        /* Cột 2*/
+        .software-design > .quest > .colum-2 {
+            padding-left: 2em;
+        }
+
+            .software-design > .quest > .colum-2 > p {
+                margin-bottom: 2.5em;
+            }
+
+                .software-design > .quest > .colum-2 > p > span {
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    color: rgb(0, 120, 174);
+                }
+
+    /* Nhận tin mới */
+    .software-design > .news {
+        z-index: 10;
+        margin-bottom: -3.5em;
+    }
+
+        .software-design > .news > .box {
+            background: linear-gradient(to bottom,rgba(0,131,188,1) 0,rgba(0,120,174,1) 47%,rgba(0,120,174,1) 100%);
+            text-align: center;
+            border-radius: 3px;
+            padding-top: 2em;
+            padding-bottom: 1em;
+        }
+
+            .software-design > .news > .box > p {
+                font-family: Roboto-Light;
+                font-size: 2.5em;
+                color: rgb(255, 255, 255);
+            }
+
+                .software-design > .news > .box > p > span {
+                    font-family: Roboto-Bold;
+                }
+
+            .software-design > .news > .box > a {
+                font-family: Roboto-Black;
+                font-size: 1.2em;
+                color: rgb(255, 255, 255);
+                padding: 5px 40px;
+                text-shadow: 0 -1px 0 #447523;
+                border-radius: 18px;
+                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
+                transition: all .4s linear;
+                width: 9em;
+                text-decoration: none;
+                margin-top: 0.4em;
+            }
+
+                .software-design > .news > .box > a:hover {
+                    color: rgb(255, 255, 255);
+                    background-position: 0 -200%;
+                    background-size: 100% 200%;
+                }
+
+    /* Thông tin chúng tôi */
+    .software-design > .info {
+        background: url(../images/Services/Thietkewebsite/info-bg.png);
+        padding-top: 10em;
+        padding-bottom: 5em;
+    }
+
+        .software-design > .info > div {
+            padding: 0;
+        }
+
+            /* Địa chỉ */
+            .software-design > .info > div > .address {
+                background-color: rgba(0,28,54,.3);
+                border: 1px solid rgb(0, 148, 210);
+                border-radius: 4px;
+                padding: 3px;
+            }
+
+                .software-design > .info > div > .address > img {
+                    padding: 0;
+                    height: 12em;
+                }
+
+                .software-design > .info > div > .address > p {
+                    font-family: Roboto-Light;
+                    font-size: 1.2em;
+                    color: rgb(184, 224, 241);
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding: 1em 2em 1em 2em;
+                }
+
+                    .software-design > .info > div > .address > p > span {
+                        font-family: Roboto-Bold;
+                        font-size: 1.5em;
+                        color: rgb(255, 255, 255);
+                    }
+
+                .software-design > .info > div > .address > a {
+                    background: rgb(0, 120, 174);
+                    font-family: Roboto-Bold;
+                    font-size: 1.2em;
+                    color: rgb(255, 255, 255);
+                    text-transform: uppercase;
+                    padding: 3px 28px 3px;
+                    border-radius: 4px;
+                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
+                    display: inline-block;
+                    border: 1px solid #008ece;
+                    box-shadow: inset 0 -1px 0 #004664,-1px -1px 0 #004664;
+                    text-decoration: none;
+                    position: absolute;
+                    left: 28%;
+                    bottom: -5.5%;
+                }
+
+                    .software-design > .info > div > .address > a:after {
+                        font-family: Roboto-Black;
+                        font-size: 1.5em;
+                        padding-left: 8px;
+                        vertical-align: -2px;
+                        content: "\bb";
+                    }
+
+                    .software-design > .info > div > .address > a:hover {
+                        background: rgb(0, 157, 220);
+                    }
+
+            /* Đăng ký nhận lời khuyên */
+            .software-design > .info > div > .advice {
+                padding: 0em 2em;
+                margin: 0;
+            }
+
+                .software-design > .info > div > .advice > p {
+                    background: url(../images/Services/Thietkewebsite/info-advice-bg.png);
+                    border: 1px solid rgb(31, 172, 229);
+                    border-radius: 5px;
+                    box-shadow: 0 1px 0 rgb(0,0,0);
+                    text-align: center;
+                    font-family: Roboto-Light;
+                    color: rgb(255, 255, 255);
+                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
+                    padding-top: 1.5em;
+                    padding-left: 2em;
+                    padding-right: 2em;
+                    padding-bottom: 1em;
+                }
+
+                    .software-design > .info > div > .advice > p:after {
+                    }
+
+                    .software-design > .info > div > .advice > p > span {
+                        font-family: Roboto-Black;
+                        font-size: 1.5em;
+                        text-shadow: 0 -1px 0 rgb(0, 0, 0);
+                    }
+
+                .software-design > .info > div > .advice > form {
+                }
+
+                    .software-design > .info > div > .advice > form > input {
+                        height: 3em;
+                        border-radius: 3em;
+                        margin-top: 3em;
+                        margin-bottom: 2em;
+                    }
+
+                    .software-design > .info > div > .advice > form > a {
+                        font-family: Roboto-Black;
+                        font-size: 1.2em;
+                        color: rgb(255, 255, 255);
+                        padding: 5px 44px;
+                        text-shadow: 0 -1px 0 #447523;
+                        border-radius: 18px;
+                        background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
+                        transition: all .4s linear;
+                        width: 9em;
+                        text-decoration: none;
+                        margin-top: 0.4em;
+                        left: -1.5em;
+                    }
+
+                        .software-design > .info > div > .advice > form > a:hover {
+                            color: rgb(255, 255, 255);
+                            background-position: 0 -200%;
+                            background-size: 100% 200%;
+                        }
+
+            /* Đào tạo */
+            .software-design > .info > div > .train {
+                background-color: rgba(0,28,54,.3);
+                border: 1px solid rgb(0, 148, 210);
+                border-radius: 4px;
+                text-align: center;
+                height: 23.3em;
+            }
+
+                .software-design > .info > div > .train > img {
+                    z-index: 10;
+                    margin-top: -2.5em;
+                }
+
+                .software-design > .info > div > .train > p {
+                    font-family: Roboto-Light;
+                    font-size: 1.25em;
+                    line-height: 1.7em;
+                    color: rgb(184, 224, 241);
+                    padding: 1.5em;
+                    margin-top: 2em;
+                }
+
+                .software-design > .info > div > .train > a {
+                    background: rgb(0, 120, 174);
+                    font-family: Roboto-Bold;
+                    font-size: 1.2em;
+                    color: rgb(255, 255, 255);
+                    text-transform: uppercase;
+                    padding: 3px 28px 3px;
+                    border-radius: 4px;
+                    text-shadow: 0 -1px 0 rgb(0, 0, 0);
+                    display: inline-block;
+                    border: 1px solid #008ece;
+                    box-shadow: inset 0 -1px 0 #004664,-1px -1px 0 #004664;
+                    text-decoration: none;
+                    position: absolute;
+                    left: 5em;
+                    bottom: -1.2em;
+                }
+
+                    .software-design > .info > div > .train > a:after {
+                        font-family: Roboto-Black;
+                        font-size: 1.5em;
+                        padding-left: 8px;
+                        vertical-align: -2px;
+                        content: "\bb";
+                    }
+
+                    .software-design > .info > div > .train > a:hover {
+                        background: rgb(0, 157, 220);
+                    }

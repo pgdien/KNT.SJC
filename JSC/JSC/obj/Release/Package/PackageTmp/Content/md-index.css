@@ -1,0 +1,892 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+body {
+    height: 2000px;
+    padding: 0;
+    margin: 0;
+}
+
+.index {
+    padding: 0;
+    margin: 0;
+}
+
+    /*Banner*/
+    .index > .banner {
+        background: url(../images/Homepage/banner-background.png) 40% 28px no-repeat;
+        padding: 0;
+        box-shadow: 0 3px 3px rgba(132,136,138,.1);
+    }
+
+        .index > .banner > .background {
+            padding: 0;
+            padding-top: 3em;
+        }
+
+            /*Phần mô tả*/
+            .index > .banner > .background > .title {
+                padding-top: 2.5em;
+                padding-bottom: 2em;
+                box-shadow: 0 3px 3px rgba(132,136,138,.1);
+            }
+
+                .index > .banner > .background > .title > .line-1 {
+                    font-family: Roboto-Medium;
+                    font-size: 5em;
+                    color: rgb(0,120,174);
+                }
+
+                .index > .banner > .background > .title > .line-2 {
+                    font-family: Roboto-Regular;
+                    font-size: 2.5em;
+                    color: rgb(0,120,174);
+                }
+
+                .index > .banner > .background > .title > .line-3 {
+                    font-family: Roboto-Light;
+                    font-size: 1.3em;
+                }
+
+                .index > .banner > .background > .title > .line-4 {
+                    font-family: Roboto-Black;
+                    font-size: 1.5em;
+                    color: rgb(144,196,4);
+                    transition: all .3s;
+                }
+
+                    .index > .banner > .background > .title > .line-4:hover {
+                        text-decoration: none;
+                        color: rgb(0,120,174);
+                    }
+
+                    .index > .banner > .background > .title > .line-4::after {
+                        content: "\bb";
+                        padding-left: 0.3em;
+                        font-size: 1.5em;
+                        position: relative;
+                        left: -2px;
+                        top: 2px;
+                    }
+
+            /*Phần hình thiết bị*/
+            .index > .banner > .background > .device {
+                padding: 0;
+            }
+
+                .index > .banner > .background > .device > .computer {
+                }
+
+                .index > .banner > .background > .device > .tablet {
+                    position: absolute;
+                    margin-top: 16.3em;
+                    left: 19.7em;
+                }
+
+                .index > .banner > .background > .device > .phone {
+                    position: absolute;
+                    margin-top: 23em;
+                    margin-left: -13em;
+                }
+
+            /*Phần sologan*/
+            .index > .banner > .background > p {
+                font-family: Roboto-Bold;
+                font-size: 2em;
+                color: orange;
+                margin-top: -4.5em;
+            }
+
+        /*Phần logo các website đã làm*/
+        .index > .banner > .icon {
+            width: 100%;
+            height: 10em;
+            background: linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,1) 63%,rgba(255,255,255,1) 100%);
+            padding-top: 4em;
+            padding-left: 10em;
+            margin-top: -5em;
+            border-top: 1px solid rgba(0,0,0,.1);
+            box-shadow: inset 0 1px #fff;
+            box-shadow: 0 3px 3px rgba(132,136,138,.3);
+        }
+
+            .index > .banner > .icon > img {
+                padding-right: 6em;
+                color: rgba(0,0,0,.9);
+            }
+
+                .index > .banner > .icon > img:hover {
+                }
+
+
+    /*Dịch vụ của chúng tôi*/
+    .index > .my-service {
+        background: linear-gradient(to bottom,#f9f9f9 0,#fdfdfd 82%,#fff 83%,#fefefe 100%);
+        padding: 0;
+        padding-top: 3em;
+        padding-bottom: 10em;
+        text-align: center;
+    }
+
+        .index > .my-service > .title {
+            text-align: center;
+            font-family: Roboto-Medium;
+            font-size: 2.5em;
+            color: rgb(0,120,174);
+            margin-top: 1em;
+        }
+
+        .index > .my-service > .service-icon {
+            margin-top: 4em;
+        }
+
+            .index > .my-service > .service-icon > a {
+                padding-left: 4em;
+            }
+
+                .index > .my-service > .service-icon > a > .icon {
+                    width: 12em;
+                    height: 12em;
+                    display: block;
+                    background: linear-gradient(to bottom,#f6f6f4 0,#f6f6f4 38%,#fafaf8 64%,#fbfbf9 100%);
+                    border-radius: 50%;
+                    border: 3px solid white;
+                    box-shadow: -3px -3px 5px rgba(160,41,189,.13);
+                    margin-left: 2em;
+                }
+
+                    .index > .my-service > .service-icon > a > .icon > img {
+                        width: 5em;
+                        margin-top: 3.3em;
+                    }
+
+                .index > .my-service > .service-icon > a > .name {
+                    font-family: Roboto-Bold;
+                    font-size: 1.5em;
+                    padding: 0;
+                    margin-top: -0.5em;
+                }
+
+                .index > .my-service > .service-icon > a > .n1 {
+                    color: rgb(0,157,220);
+                }
+
+                .index > .my-service > .service-icon > a > .n2 {
+                    color: rgb(242,143,14);
+                }
+
+                .index > .my-service > .service-icon > a > .n3 {
+                    color: rgb(114,152,13);
+                }
+
+                .index > .my-service > .service-icon > a > .n4 {
+                    color: rgb(135,47,159);
+                }
+
+
+    /*Những dự án tiêu biểu*/
+    .index > .typical-project {
+        background: url(../images/Homepage/typical-project-bg.png);
+        padding: 0;
+        padding-bottom: 5em;
+    }
+
+        /*Nút chuyển xuống phần tiếp theo*/
+        .index > .typical-project > .button-next-part {
+            margin-top: -3.3em;
+        }
+
+            .index > .typical-project > .button-next-part > a {
+                background-color: rgb(19,24,31);
+                display: block;
+                width: 6.5em;
+                height: 6.5em;
+                border: 0.4em solid white;
+                border-radius: 50%;
+                padding: 0;
+                padding-left: 0.4em;
+                padding-top: 2.5em;
+                transition: all .3s;
+                margin: 0px auto;
+            }
+
+                .index > .typical-project > .button-next-part > a:hover {
+                    padding-top: 3em;
+                }
+
+                .index > .typical-project > .button-next-part > a > img {
+                    width: 4.5em;
+                }
+
+        /*Tiêu đề*/
+        .index > .typical-project > .title {
+            text-align: center;
+            padding: 0;
+            padding-top: 7em;
+        }
+
+            /*Tiêu đề dòng 1*/
+            .index > .typical-project > .title > .line-1 {
+                font-family: Roboto-Black;
+                font-size: 5em;
+                color: white;
+                padding: 0;
+                margin: 0;
+            }
+
+            /*Tiêu đề dòng 2*/
+            .index > .typical-project > .title > .line-2 {
+                font-size: 1.5em;
+                color: rgb(117,130,136);
+                text-shadow: 0 -1px 0 rgb(0,55,79);
+                padding: 0;
+                margin: 0;
+            }
+
+        /*Nội dung*/
+        .index > .typical-project > .content {
+            padding: 0;
+            padding-bottom: 3em;
+            padding-top: 3em;
+        }
+
+            .index > .typical-project > .content > .row-content {
+                text-align: center;
+                padding: 0;
+                padding-left: 1.5em;
+            }
+
+                /*Phần đường dẫn*/
+                .index > .typical-project > .content > .row-content > a {
+                    width: 29em;
+                    height: 29em;
+                    padding: 0;
+                    margin: 0em 1em 2em 1em;
+                }
+
+                    /*Ảnh hiển thị của đường dẫn*/
+                    .index > .typical-project > .content > .row-content > a > img {
+                        width: 29em;
+                        height: 29em;
+                        padding: 0;
+                    }
+
+                    /*Ô thông tin sản phẩm*/
+                    .index > .typical-project > .content > .row-content > a > .box-info {
+                        background: rgba(0, 0, 0, .9);
+                        width: 29em;
+                        height: 10em;
+                        display: none;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        padding-top: 1.5em;
+                    }
+
+                        .index > .typical-project > .content > .row-content > a > .box-info > .line-1 {
+                            font-family: Roboto-Bold;
+                            font-size: 2em;
+                            color: rgb(0, 120, 174);
+                        }
+
+                        .index > .typical-project > .content > .row-content > a > .box-info > .line-2 {
+                            font-family: Roboto-Light;
+                            font-size: 1.3em;
+                            color: rgb(255, 255, 255);
+                        }
+
+        /*Phần đăng ký làm web*/
+        .index > .typical-project > .sign-up-web {
+            background: rgba(255,255,255,.03);
+            text-align: center;
+            padding: 0;
+            padding-top: 3em;
+            padding-bottom: 4em;
+            display: block;
+        }
+
+            /*tiêu đề*/
+            .index > .typical-project > .sign-up-web > p {
+                font-family: Roboto-Black;
+                font-size: 2em;
+                color: rgb(0,120,174);
+            }
+
+            /*nút đăng kí*/
+            .index > .typical-project > .sign-up-web > a {
+                font-family: Roboto-Black;
+                font-size: 1.5em;
+                color: white;
+                text-decoration: none;
+                padding: 0.3em 1.5em;
+                background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
+                text-shadow: 0 -1px 0 #447523;
+                border-radius: 2em;
+                transition: all .4s linear;
+                display: inline-block;
+                width: 10em;
+                margin-left: 27em;
+            }
+
+                .index > .typical-project > .sign-up-web > a:hover {
+                    color: white;
+                    background-position: 0 -200%;
+                    background-size: 100% 200%;
+                }
+
+    /*CSS cho Dịch vụ khác*/
+    .index > .another-service {
+        background: url(../images/Homepage/another-service-background.png) no-repeat;
+        width: 100%;
+        height: 1%;
+        overflow: hidden;
+        padding: 0;
+        padding-bottom: 3em;
+    }
+
+        /*Phần tiêu đề lớn*/
+        .index > .another-service > .another-top {
+            text-align: center;
+            margin-bottom: 3em;
+            padding-top: 3em;
+            margin-bottom: 4em;
+        }
+
+            .index > .another-service > .another-top > .another-title {
+                font-family: Roboto-Bold,sans-serif;
+                font-weight: bold;
+                font-size: 4.5em;
+                line-height: 1.1;
+                color: white;
+                margin: 0;
+                text-shadow: 0 1px 1px rgba(0,0,0,.75);
+            }
+
+            .index > .another-service > .another-top > .another-description {
+                color: white;
+                font-size: 1.4em;
+                margin: 0;
+                margin-top: 1em;
+            }
+
+        /*Phần nội dung và nút xem thêm*/
+        .index > .another-service > .content {
+            padding: 0;
+            padding-bottom: 2em;
+        }
+            /*Phần nọi dung*/
+            .index > .another-service > .content > .icon {
+                width: 100%;
+                height: 1%;
+                overflow: hidden;
+                background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.03) 12%,rgba(0,0,0,.16) 39%,rgba(0,0,0,.17) 51%,rgba(0,0,0,.18) 100%);
+                padding: 0px;
+                padding-bottom: 35px;
+                border-radius: 0.9em;
+            }
+                /*Phần icon lớn về dịch vụ*/
+                .index > .another-service > .content > .icon > ul {
+                    padding-bottom: 1.5em;
+                }
+
+                    .index > .another-service > .content > .icon > ul > li {
+                        list-style: none;
+                        padding: 0;
+                    }
+
+                        .index > .another-service > .content > .icon > ul > li > a {
+                            font-family: Roboto-Bold, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.45em;
+                            color: white;
+                            text-decoration: none;
+                            text-align: center;
+                            transition: all .3s linear;
+                            display: block;
+                            width: 11em;
+                            height: 7em;
+                            padding: 0;
+                            margin: 0;
+                            padding-top: 1em;
+                            margin: 0px auto;
+                        }
+
+                            .index > .another-service > .content > .icon > ul > li > a:hover {
+                                background: rgba(0,157,220,.25);
+                                box-shadow: inset 4px 4px 10px -4px rgba(0,0,0,.3);
+                                border-radius: 3px;
+                            }
+
+                            .index > .another-service > .content > .icon > ul > li > a > img {
+                                margin-bottom: 0.6em;
+                            }
+
+                /*Phần dịch vụ chi tiết*/
+                .index > .another-service > .content > .icon > .another-other {
+                    width: 100%;
+                    padding: 0;
+                    padding-left: 2.5em;
+                    padding-right: 2.5em;
+                    margin-bottom: 2em;
+                    display: none;
+                }
+
+                    .index > .another-service > .content > .icon > .another-other > ul {
+                        list-style: none;
+                        line-height: 3.5em;
+                    }
+
+                        .index > .another-service > .content > .icon > .another-other > ul > li {
+                            background: rgba(0,0,0,.18);
+                            width: 100%;
+                            height: 3.5em;
+                            margin-bottom: 0.1em;
+                        }
+
+                            .index > .another-service > .content > .icon > .another-other > ul > li > a {
+                                font-size: 1.05em;
+                                display: block;
+                                color: white;
+                                text-decoration: none;
+                                width: 100%;
+                                height: 100%;
+                                padding-left: 2em;
+                                transition: all .1s linear;
+                            }
+
+                                .index > .another-service > .content > .icon > .another-other > ul > li > a::before {
+                                    content: "\bb";
+                                    padding-left: 6px;
+                                    font-size: 19px;
+                                    position: relative;
+                                    left: -9px;
+                                    color: #009ddc;
+                                }
+
+                                .index > .another-service > .content > .icon > .another-other > ul > li > a:hover {
+                                    background: rgb(171,218,46);
+                                    padding-left: 3em;
+                                    transition: all .3s linear;
+                                }
+
+                                    .index > .another-service > .content > .icon > .another-other > ul > li > a:hover:before {
+                                        content: "\bb";
+                                        padding-left: 6px;
+                                        font-size: 19px;
+                                        position: relative;
+                                        left: -9px;
+                                        color: white;
+                                    }
+
+            /*Nút xem thêm*/
+            .index > .another-service > .content > .another-close {
+            }
+
+                .index > .another-service > .content > .another-close > .another-close-button {
+                    cursor: pointer;
+                    margin-top: -1.7em;
+                }
+
+    /*Nội dung chia sẻ*/
+    .index > .share {
+    }
+
+        /*Nút chuyển xuống phần tiếp theo*/
+        .index > .share > .button-next-part {
+            margin-top: -3.3em;
+        }
+
+            .index > .share > .button-next-part > a {
+                background-color: white;
+                display: block;
+                height: 6.5em;
+                width: 6.5em;
+                border: 0.4em solid rgb(17, 152, 208);
+                border-radius: 50%;
+                padding: 0;
+                padding-left: 0.4em;
+                padding-top: 2.5em;
+                transition: all .3s;
+                margin: 0px auto;
+            }
+
+                .index > .share > .button-next-part > a:hover {
+                    padding-top: 3em;
+                }
+
+                .index > .share > .button-next-part > a > img {
+                    width: 4.5em;
+                }
+
+
+        /*Phần tiêu đề lớn*/
+        .index > .share > .title {
+            text-align: center;
+            font-family: Roboto-Light;
+            font-size: 4em;
+            color: rgb(0,120,174);
+            padding-top: 1.5em;
+        }
+
+        /*Phần nội dung*/
+        .index > .share > .content {
+            padding-left: 2em;
+            padding-right: 2em;
+            margin-top: 2em;
+            margin-bottom: 5em;
+        }
+
+            /*Phần bài viết*/
+            .index > .share > .content > .colum {
+                padding: 0em 1em;
+            }
+
+                /*Tiêu đề mục*/
+                .index > .share > .content > .colum > .colum-title {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                    .index > .share > .content > .colum > .colum-title > p {
+                        font-family: Roboto-Bold, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.5em;
+                        color: rgb(0,120,174);
+                    }
+
+                    .index > .share > .content > .colum > .colum-title > .colum-title-space {
+                        height: 2.5em;
+                        border-bottom: 0.5em solid rgb(171,218,46);
+                    }
+
+                /*Phần cột chứa bài viết*/
+                .index > .share > .content > .colum > .detail {
+                    padding: 0;
+                }
+
+                    /*Từng bài viết*/
+                    .index > .share > .content > .colum > .detail > .colum-content {
+                        border: 0.1em solid rgb(217,218,219);
+                        padding: 0;
+                        margin-bottom: 1.3em;
+                        overflow: hidden;
+                        border-bottom: 0.3em solid rgb(0,157,220);
+                    }
+
+                        /*Ảnh bài viết*/
+                        .index > .share > .content > .colum > .detail > .colum-content > .colum-img {
+                            display: block;
+                            overflow: hidden;
+                            margin: 20px;
+                            position: relative;
+                        }
+
+                            .index > .share > .content > .colum > .detail > .colum-content > .colum-img > img {
+                                width: 100%;
+                                display: block;
+                                transform: scale(1.1);
+                                transition: all 0.5s ease-in-out;
+                            }
+
+                        /*Tiêu đề bài viết*/
+                        .index > .share > .content > .colum > .detail > .colum-content > .colum-text {
+                            padding-left: 2.5em;
+                            padding-right: 2.5em;
+                            padding-bottom: 2em;
+                        }
+
+                            .index > .share > .content > .colum > .detail > .colum-content > .colum-text > a {
+                                font-family: Roboto-Bold, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5em;
+                                text-decoration: none;
+                                display: block;
+                                transition: color .4s;
+                            }
+
+                                .index > .share > .content > .colum > .detail > .colum-content > .colum-text > a:hover {
+                                    color: #009ddc;
+                                }
+
+                        /*Nút xem thêm*/
+                        .index > .share > .content > .colum > .detail > .colum-content > .detail-text {
+                            position: absolute;
+                            z-index: 5;
+                            display: inline-block;
+                            color: white;
+                            right: 0.9em;
+                            bottom: 0.3em;
+                            font-family: Roboto-Bold, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2em;
+                            text-decoration: none;
+                        }
+
+                            .index > .share > .content > .colum > .detail > .colum-content > .detail-text::after {
+                                content: "\bb";
+                                padding-left: 0.3em;
+                                font-size: 1.3em;
+                                position: relative;
+                                color: white;
+                                top: 1px;
+                            }
+
+                        .index > .share > .content > .colum > .detail > .colum-content > .hover {
+                            padding: 0;
+                            margin: 0;
+                            margin-left: -15em;
+                            transition: all 0.5s;
+                            display: inline-block;
+                        }
+
+                            .index > .share > .content > .colum > .detail > .colum-content > .hover:before {
+                                position: fixed;
+                                top: 100%;
+                                width: 155%;
+                                height: 110px;
+                                content: "";
+                                background: rgb(0,157,220);
+                                transition: transform .4s;
+                                backface-visibility: hidden;
+                                outline: transparent solid 1px;
+                                transition: all 0.5s;
+                            }
+
+                /*Nút xem thêm các bài viết khác*/
+                .index > .share > .content > .colum > .more-content {
+                }
+
+                    .index > .share > .content > .colum > .more-content > a {
+                        font-family: Roboto-Black, sans-serif;
+                        font-size: 1.3em;
+                        color: rgb(171,218,46);
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        transition: color .3s ease-out;
+                    }
+
+                        .index > .share > .content > .colum > .more-content > a:hover {
+                            color: rgb(0,120,174);
+                        }
+
+                        .index > .share > .content > .colum > .more-content > a::after {
+                            content: "\bb";
+                            padding-left: 0.3em;
+                            font-size: 1.5em;
+                            position: relative;
+                            left: -2px;
+                            top: 2px;
+                        }
+
+    /*Phần nhận thông tin mới nhất từ chúng tôi*/
+    .index > .subscribe {
+        background: url(../images/Homepage/take-news.png);
+        width: 100%;
+        height: 15;
+        overflow: hidden;
+        border-top: 0.1em solid #e5e5e5;
+    }
+
+        /*Phần khung nội dung chính*/
+        .index > .subscribe > .content {
+            border: 1px solid rgb(214,214,214);
+            border-left: none;
+            border-radius: 0 5px 5px 0;
+            padding: 0;
+            padding-bottom: 0.5em;
+            margin-top: 3em;
+            margin-bottom: 3em;
+        }
+
+            .index > .subscribe > .content::before {
+                content: "";
+                position: absolute;
+                left: -5.8em;
+                top: -0.2em;
+                width: 5.3em;
+                height: 4em;
+                background: url(../images/Homepage/take-news-icon.png) no-repeat;
+                background-position: -58px -3px;
+                display: block;
+            }
+
+            .index > .subscribe > .content::after {
+                content: "";
+                position: absolute;
+                left: -80px;
+                bottom: -1px;
+                width: 86px;
+                height: calc(100% - 4em);
+                background: url(../images/Homepage/take-news-border.png) 0 100% no-repeat;
+            }
+
+            /*phần chữ*/
+            .index > .subscribe > .content > .text {
+                padding: 0;
+                margin-left: -3em;
+                margin-right: 1em;
+            }
+
+                .index > .subscribe > .content > .text > .title {
+                    font-family: Roboto-Bold, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.3em;
+                    color: rgb(0,120,174);
+                    margin: 0;
+                    margin-top: 0.8em;
+                }
+
+                .index > .subscribe > .content > .text > .detail {
+                    font-size: 1.1em;
+                    color: rgb(90,96,99);
+                    padding-right: 5em;
+                }
+            /*Phần ô điền email & nút đăng ký*/
+            .index > .subscribe > .content > .form {
+                width: 33em;
+                padding: 0;
+                margin: 0;
+                margin-top: 4.5em;
+                margin-right: 4em;
+            }
+
+                /*Phần ô điền email*/
+                .index > .subscribe > .content > .form > form {
+                }
+
+                    .index > .subscribe > .content > .form > form > input {
+                        font-style: italic;
+                        font-size: 17px;
+                        color: rgb(135,138,140);
+                        width: 100%;
+                        border-radius: 2em;
+                        padding: 0.7em;
+                        padding-left: 2em;
+                        padding-right: 10em;
+                        margin: 0;
+                    }
+
+                /*Nút đăng ký*/
+                .index > .subscribe > .content > .form > .sign-up-btn {
+                    position: absolute;
+                    background: linear-gradient(to bottom,rgb(41, 207, 19) 0,rgb(51, 165, 36) 100%) 0 0/100% 100%;
+                    font-family: Roboto-Black, sans-serif;
+                    color: white;
+                    font-size: 18px;
+                    text-decoration: none;
+                    text-shadow: 0 -1px 0 #447523;
+                    border-radius: 2em;
+                    cursor: pointer;
+                    
+                    top: 0.4em;
+                    right: 0.5em;
+                    padding: 0.3em 2.2em;
+                    margin: 0;
+                    transition: all .4s linear;
+                }
+
+                    .index > .subscribe > .content > .form > .sign-up-btn:hover {
+                        color: white;
+                        background-position: 0 -200%;
+                        background-size: 100% 200%;
+                    }
+
+    /*Bản đồ và địa chỉ*/
+    .index > .map-address {
+        background: url(../images/Homepage/address-background.png) 50% 50%/cover no-repeat;
+        border-top: solid 1px #054159;
+    }
+
+        .index > .map-address > .content {
+            padding: 0;
+            padding-top: 2em;
+            padding-bottom: 1.5em;
+            margin-top: 3em;
+            margin-bottom: 3em;
+            position: relative;
+            border: 1px solid rgba(86,207,255,.3);
+            border-left: none;
+            border-radius: 0 5px 5px 0;
+        }
+
+            .index > .map-address > .content::before {
+                content: "";
+                position: absolute;
+                left: -4em;
+                top: -0.5em;
+                width: 52px;
+                height: 74px;
+                background: url(../images/Homepage/take-news-icon.png) -3px -3px no-repeat;
+            }
+
+            .index > .map-address > .content::after {
+                content: "";
+                position: absolute;
+                left: -3.9em;
+                bottom: -0.1em;
+                width: 55px;
+                height: calc(100% - 63px);
+                background: url(../images/Homepage/address-border.png) 0 100% no-repeat;
+            }
+
+            .index > .map-address > .content > .address-info {
+                padding: 0;
+                color: white;
+            }
+
+                .index > .map-address > .content > .address-info > .company-name {
+                    font-family: Roboto-Bold, sans-serif;
+                    font-weight: bold;
+                    font-size: 3em;
+                }
+
+                .index > .map-address > .content > .address-info > .address {
+                    font-size: 1.4em;
+                    margin-top: 1em;
+                }
+
+                .index > .map-address > .content > .address-info > .phone {
+                    font-size: 1.2em;
+                    margin-top: 2em;
+                    margin-left: 2em;
+                }
+
+                    .index > .map-address > .content > .address-info > .phone::before {
+                        content: "";
+                        background: url(../images/Homepage/take-news-icon.png) -132px -3px no-repeat;
+                        width: 21px;
+                        height: 21px;
+                        position: absolute;
+                        left: 0;
+                    }
+
+            .index > .map-address > .content > img {
+                position: absolute;
+                width: 35em;
+                padding: 0;
+                margin: 0;
+                margin-top: -15.9em;
+                margin-left: 33em;
+            }

@@ -1,0 +1,221 @@
+﻿
+@{
+    ViewBag.Title = "SvThietkewebsite";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+@{
+    ViewBag.Title = "Thietkewebsite";
+}
+
+<div class="web-design col-md-12">
+    <!--Menu Dịch vụ-->
+    <div class="menu col-md-12">
+        <p class="col-md-2 col-md-offset-1">Dịch vụ</p>
+        <ul class="col-md-8">
+            <li class="col-md-3"><a href="@Url.Action("SVThietkewebsite","Home")">Thiết kế website</a></li>
+            <li class="col-md-3"><a href="@Url.Action("SVThietkephanmem","Home")">Thiết kế phần mềm</a></li>
+            <li class="col-md-3"><a href="@Url.Action("SVMarketingonline","Home")">Marketing Online</a></li>
+            <li class="col-md-3"><a href="@Url.Action("SVDichvukhac","Home")">Dịch vụ khác</a></li>
+        </ul>
+    </div>
+
+    <!--Menu chi tiết-->
+    <div class="menu-2 col-md-12">
+        <ul class="col-md-10 col-md-offset-1">
+            <li><a href="@Url.Action("WsNhahang","Home")">Website<br />nhà hàng</a></li>
+            <li><a href="@Url.Action("WsKhachsan","Home")">Website<br />khác sạn</a></li>
+            <li><a href="@Url.Action("WsSpa","Home")">Website<br />Spa - Beauty</a></li>
+            <li><a href="@Url.Action("WsBanhang","Home")">Website<br />bán hàng</a></li>
+            <li><a href="@Url.Action("WsTintuc","Home")">Website<br />tin tức</a></li>
+            <li><a href="@Url.Action("WsCongty","Home")">Website<br />công ty</a></li>
+            <li><a href="@Url.Action("WsDichvu","Home")">Website<br />dịch vụ</a></li>
+        </ul>
+    </div>
+
+    <!--Banner-->
+    <div class="banner col-md-12">
+        <div class="col-md-6 col-md-offset-1">
+            <p class="line-1">Website responsive</p>
+            <p class="line-2">
+                Thiết kế dựa trên nền tảng thiết kế phẳng material hiện đại,
+                kết hợp tính năng responsive tương ứng trên mọi thiết bị di động như máy tính bảng, điện thoại
+            </p>
+            <a href="#">Xem thêm</a>
+        </div>
+        <img class="col-md-5" src="~/images/Services/Thietkewebsite/banner-img.png" />
+    </div>
+
+    <!--Các loại website-->
+    <div class="content col-md-12">
+        <div class="detail col-md-6">
+            <a class="icon col-md-3" href="@Url.Action("WsNhahang","Home")"><img src="~/images/Services/Thietkewebsite/icon-restaurant.png" /></a>
+            <div class="col-md-9">
+                <a href="@Url.Action("WsNhahang","Home")">Website Nhà hàng</a>
+                <p>
+                    Ngày nay khi Internet hội nhập vào tất cả các ngành nghề, các lĩnh vực thì việc một nhà hàng, quán ăn cần có một website là việc làm tất yếu.
+                    Thiết kế website nhà hàng, khách sạn là vô cùng cần thiết để quảng bá các món ăn ngon và thương hiệu của nhà hàng.
+                </p>
+            </div>
+            <a class="more col-md-12" href="@Url.Action("WsNhahang","Home")">Xem thêm</a>
+        </div>
+        <div class="detail col-md-6">
+            <a class="icon col-md-3" href="#"><img src="~/images/Services/Thietkewebsite/icon-hotel.png" /></a>
+            <div class="col-md-9">
+                <a href="#">Website Khách sạn</a>
+                <p>
+                    Như chúng ta đã biết trong thời đại công nghệ thông tin phát triển như hiện nay việc xây dựng website khách sạn là công việc vô cùng cần thiết.
+                    Website có chức năng giới thiệu về khách sạn của mình và cho phép du khách đặt phòng trực tuyến.
+                </p>
+            </div>
+            <a class="more col-md-12" href="#">Xem thêm</a>
+        </div>
+        <div class="detail col-md-6">
+            <a class="icon col-md-3" href="#"><img src="~/images/Services/Thietkewebsite/icon-spa.png" /></a>
+            <div class="col-md-9">
+                <a href="#">Website Beauty - Spa</a>
+                <p>
+                    Ngày nay website đã trở thành một kênh truyền thông và công cụ kinh doanh hàng đầu cho doanh nghiệp ở mọi quy mô khác nhau
+                    – từ cá nhân nhỏ lẻ cho tới một tập đoàn lớn. Các trung tâm làm đẹp, thẩm mỹ viện (beauty salon), spa, hair salon...
+                </p>
+            </div>
+            <a class="more col-md-12" href="#">Xem thêm</a>
+        </div>
+        <div class="detail col-md-6">
+            <a class="icon col-md-3" href="#"><img src="~/images/Services/Thietkewebsite/icon-news.png" /></a>
+            <div class="col-md-9">
+                <a href="#">Website Tin tức</a>
+                <p>
+                    Ngày nay, website tin tức được xem là mô hình có tính phổ biến và đa dạng nhất bởi khả năng cập nhật đa dạng và xuất bản thông tin nhanh.
+                    Vì vậy, Thiết Kế Website Tin Tức rất phù hợp với các cơ quan, tổ chức muốn xây dựng cho mình một trang web...
+                </p>
+            </div>
+            <a class="more col-md-12" href="#">Xem thêm</a>
+        </div>
+        <div class="detail col-md-6">
+            <a class="icon col-md-3" href="#"><img src="~/images/Services/Thietkewebsite/icon-store.png" /></a>
+            <div class="col-md-9">
+                <a href="#">Website Bán hàng</a>
+                <p>
+                    Từ thời xa xưa, làm giàu bằng phương pháp kinh doanh, bán hàng là đam mê của không ít người.
+                    Một thương nhân thông thái là người luôn biết thay đổi,
+                    luôn nắm bắt rõ thị trường và thấu hiểu tâm lý khách hàng qua đó có thể quảng cáo sản...
+                </p>
+            </div>
+            <a class="more col-md-12" href="#">Xem thêm</a>
+        </div>
+        <div class="detail col-md-6">
+            <a class="icon col-md-3" href="#"><img src="~/images/Services/Thietkewebsite/icon-introduce.png" /></a>
+            <div class="col-md-9">
+                <a href="#">Website Giới thiệu</a>
+                <p>
+                    Kết Nối Trẻ JSC cung cấp dịch vụ xây dựng thiết kế website chuyên nghiệp cho các công ty,
+                    doanh nghiệp ở mọi lĩnh vực: nhà hàng, spa, trường học, dịch vụ, thương mại,…với mục đích giới thiệu doanh nghiệp,
+                    quảng bá hình ảnh tăng độ nhận diện thương hiệu...
+                </p>
+            </div>
+            <a class="more col-md-12" href="#">Xem thêm</a>
+        </div>
+        <div class="detail col-md-6">
+            <a class="icon col-md-3" href="#"><img src="~/images/Services/Thietkewebsite/icon-service.png" /></a>
+            <div class="col-md-9">
+                <a href="#">Website Dịch vụ</a>
+                <p>
+                    Bạn bắt đầu kinh doanh dịch vụ, bạn mới bước đi những bước đầu tiên và khách hàng chưa nhân diện được thương hiệu của riêng bạn.
+                    Đừng lo, hãy để Kết Nối Trẻ JSC hỗ trợ bạn điều đó một cách chuyên nghiệp, hiệu quả và uy tín nhất.
+                </p>
+            </div>
+            <a class="more col-md-12" href="#">Xem thêm</a>
+        </div>
+    </div>
+
+    <!--Liên lạc với chúng tôi-->
+    <div class="call-us col-md-12">
+        <div class="box col-md-8 col-md-offset-2">
+            <p class="col-md-9">Bạn muốn có một website của riêng mình</p>
+            <a href="#" class="col-md-3">Gọi ngay</a>
+        </div>
+    </div>
+
+    <!--Hỏi-Đáp-->
+    <div class="quest col-md-12">
+        <div class="title col-md-12">
+            <p class="line-1">Bạn có câu hỏi ?</p>
+            <p class="line-2">Chúng tôi trả lời !</p>
+        </div>
+        <div class="colum-1 col-md-5 col-md-offset-1">
+            <p>
+                Việc chuẩn bị một dự án website có hàng chục vấn đề, câu hỏi xoay quanh nó và gây trở ngại cho bất kỳ doanh nghiệp nào.
+                Chúng tôi luôn ở đây để sẵn sàng trả lời mọi câu hỏi và tư vấn cho các doanh nghiệp. Một số câu hỏi chúng tôi thường nhận được bao gồm:
+            </p>
+            <p>
+                <span>Làm thế nào để tôi có thể thiết kế và phát triển website của mình ?</span><br />
+                Có rất nhiều cách để có thể thiết kế và phát triển website của riêng mình.
+                Trong đó có những cách chủ yếu là tự thiết kế bằng code hoặc làm dựa trên những công cụ có sẵn.
+                Tuy nhiên chúng tôi khuyên bạn, để có thể thành công trong việc tự thiết kế thì bạn phải có nền tảng vững chắc trong việc tư duy,
+                phát triển và có thể code được một ngôn ngữ nào đó.
+                Ở đây chúng tôi có những chuyên gia giàu kinh nghiệm và một kỹ năng tuyệt vời để có thể hỗ trợ bạn việc đó một cách dễ dàng và thành công nhất.
+            </p>
+            <p>
+                <span>Làm sao để doanh nghiệp của tôi trở thành thương hiệu nổi bật ?</span><br />
+                Việc xây dựng thương hiệu thích hợp cho doanh nghiệp rất quan trọng để định hướng cho khách hàng của bạn.
+                Các chuyên gia của chúng tôi có thể hoàn toàn giúp bạn lựa chọn được tên thương hiệu hoặc cách thức nổi bật trong mắt khách hàng.
+            </p>
+        </div>
+        <div class="colum-2 col-md-5">
+            <p>
+                <span>Làm thế nào để tôi có thể tăng hạng trên Goolge và tăng lượng truy cập ws?</span><br />
+                Việc tăng hạng trên Google không phải là việc khó những cũng không phải dễ dàng với các doanh nghiệp. Để có thể tăng hạng trên Google bạn phải có một quy trình viết bài đưa lên website một các hợp lý và đảm bảo bài đó không vi phạm chính sách của Google.
+                Có rất nhiều cách để tăng hạng và tăng lượng truy cập website, trong đó bạn phải chú ý đầu tư vào nội dung và hình ảnh bài viết sao cho bắt mắt, hấp dẫn nhất.
+                Nếu bạn cảm thấy khó khăn thì hãy để chúng tôi giúp đỡ bạn giải quyết vấn đề đó.
+            </p>
+            <p>
+                <span>Tích hợp website lên di động có giúp cho việc kinh doanh của tôi ?</span><br />
+                Điều đó là chắc chắn rồi, hiện nay thống kê cho thấy 75% người dùng internet là tương tác qua smartphone. Chính vì vậy thật kỳ lạ nếu chúng ta bỏ qua thị trường này đối với doanh nghiệp của bạn.
+                Doanh số của bạn có thể tăng lên gấp đôi, gấp ba với tiện ích này. Với mỗi website chúng tôi cung cấp cho khách hàng đều tích hợp chức năng responsive chính là tính năng tích hợp website trên thiết bị di động, điều này sẽ cải thiện lượng truy cập cho doanh nghiệp của bạn.
+            </p>
+        </div>
+    </div>
+
+    <!--Nhận tin tức từ chúng tôi-->
+    <div class="news col-md-12">
+        <div class="box col-md-8 col-md-offset-2">
+            <p class="col-md-9">Nhận <span>tin tức</span> mới nhất từ chúng tôi</p>
+            <a href="#" class="col-md-3">Đăng ký</a>
+        </div>
+    </div>
+
+    <!--Thông tin công ty-->
+    <div class="info col-md-12">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="address col-md-4">
+                <img src="~/images/Services/Thietkewebsite/info-map.png" class="col-md-12" />
+                <p class="col-md-12">
+                    <span>Kết Nối Trẻ JSC</span><br />
+                    75 Lâm Tường, Hồ Nam, Lê Chân, Hải Phòng <br />
+                    TEL: 0914 15 6668
+                </p>
+                <a href="https://goo.gl/maps/iiGdBNhajD82">Chỉ đường</a>
+            </div>
+            <div class="advice col-md-4">
+                <p>
+                    <span>Nhận lời khuyên từ phía chuyên gia</span><br />
+                    Làm thế nào để phát triển được thương hiệu trực tuyến của bạn thành công
+                </p>
+                <form>
+                    <input type="text" placeholder="Nhập email của bạn" class="col-md-12" />
+                    <a href="#" class="col-md-4 col-md-offset-4">Đăng ký</a>
+                </form>
+            </div>
+            <div class="train col-md-4">
+                <img src="~/images/Services/Thietkewebsite/info-youtube-icon.png" />
+                <p>
+                    Bạn có muốn tham gia ngay vào khóa đào tạo trực tuyến của chúng tôi ngay hôm nay. Vui lòng truy cập vào chanel của chúng tôi tại địa chỉ:<br />
+                    https://goo.gl/uklNOu
+                </p>
+                <a href="#">Tham gia ngay</a>
+            </div>
+        </div>
+    </div>
+</div>
